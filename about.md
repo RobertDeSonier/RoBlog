@@ -8,4 +8,7 @@ title: About
   I have work at Flow-Cal, a software company based in Houston, TX, for over 5 years now.
 </p>
 
+If you find something wrong and you want to correct it, please do!  
+Create a pull request [here](https://github.com/RobertDeSonier/RoBlog).
+
 Thanks for reading!
