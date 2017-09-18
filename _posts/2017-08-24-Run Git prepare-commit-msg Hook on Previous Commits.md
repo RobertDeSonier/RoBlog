@@ -12,14 +12,14 @@ Once again, I offer some good news! It is possible and easy to run the git hook 
 Here is how you fix up all your previous commits to run the pre-commit hook you just added:
 1. Select commit prior to commits you want to run the hook on.
 1. Right-click > Rebase current branch on > Select Commit Hash  
-![Rebase Right-click]({{ site.url }}/assets/2017-08-24/Rebase.PNG)
+![Rebase Right-click]({{ site.baseurl }}/assets/2017-08-24/Rebase.PNG)
 1. Click Show options
 1. Check Interactive Rebase
-![Interactive Rebase Check]({{ site.url }}/assets/2017-08-24/InteractiveRebase.PNG)
+![Interactive Rebase Check]({{ site.baseurl }}/assets/2017-08-24/InteractiveRebase.PNG)
 1. Press Rebase
 1. Your choosen Text Editor should open with git-rebase-todo window
-![Rebase Todo]({{ site.url }}/assets/2017-08-24/RebaseTodo.PNG)
+![Rebase Todo]({{ site.baseurl }}/assets/2017-08-24/RebaseTodo.PNG)
 1. Add `exec git commit --amend -C HEAD` after each commit
-![Rebase Todo Edited]({{ site.url }}/assets/2017-08-24/RebaseTodoEdited.PNG)
+![Rebase Todo Edited]({{ site.baseurl }}/assets/2017-08-24/RebaseTodoEdited.PNG)
 1. Close the edit window
 1. Watch git do it's work!
