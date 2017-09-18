@@ -12,7 +12,7 @@
           <small>{{ site.tagline }}</small>
           <br>
           {% for page in site.pages_list %}
-            <small><a href="{{ page[1]  }}">{{ page[0] }}</a></small>
+            <small><a href="{{ site.baseurl }}{{ page[1]  }}">{{ page[0] }}</a></small>
           {% endfor %}
         </h3>
       </header>
