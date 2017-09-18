@@ -30,3 +30,8 @@ github:
 plugins:
   - jekyll-paginate
   - jekyll-gist
+
+# Pages to Link
+pages_list:
+  About: '/about'
+  Archive: '/archive'
