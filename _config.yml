@@ -19,12 +19,11 @@ description: > # this means to ignore newlines until "baseurl:"
   Tips & Tricks for Devs
 baseurl: "/RoBlog" # the subpath of your site, e.g. /blog
 url: "https://robertdesonier.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  RobertDeSonier
+github_repo: RoBlog
 
 # Build settings
 markdown: kramdown
-theme: jekyll-swiss
 theme_color: blue
 
 pages_list:
