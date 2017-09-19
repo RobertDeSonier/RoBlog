@@ -1,78 +1,62 @@
-// Body resets
-//
-// Update the foundational and global aspects of the page.
+/**
+  * Reset some basic elements
+*/
 
 * {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+ box-sizing: border-box !important;
+ margin: 0; }
+
+input,
+select,
+textarea,
+button {
+ font-family: inherit;
+ font-size: inherit;
+ line-height: inherit;
 }
 
-html,
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+
+/**
+ * Basic styling
+ */
 body {
-  margin: 0;
-  padding: 0;
+    font-family: $body-font-family;
+    font-size: $body-font-size;
+    line-height: 1.5;
+    color: $color-body-text;
+    background-color: #fff;
 }
 
-html {
-  font-family: $root-font-family;
-  font-size: $root-font-size;
-  line-height: $root-line-height;
-
-  @media (min-width: $large-breakpoint) {
-    font-size: $large-font-size;
-  }
+p {
+  margin-top: 0;
+  margin-bottom: 0.5em;
 }
 
-body {
-  color: $body-color;
-  background-color: $body-bg;
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1em;
+  margin-bottom: 0.25em;
 }
 
-// No `:visited` state is required by default (browsers will use `a`)
+h1, .h1 { font-size: $h1-size; }
+h2, .h2 { font-size: $h2-size; }
+h3, .h3 { font-size: $h3-size; }
+h4, .h4 { font-size: $h4-size; }
+h5, .h5 { font-size: $h5-size; }
+h6, .h6 { font-size: $h6-size; text-transform: uppercase; letter-spacing: 0.02em; }
+
 a {
-  color: $link-color;
+  color: $color-text-accent;
   text-decoration: none;
-
-  // `:focus` is linked to `:hover` for basic accessibility
-  &:hover,
-  &:focus {
-    text-decoration: underline;
-  }
-
-  strong {
-    color: inherit;
-  }
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  margin: 0 0 1rem;
-  border-radius: 5px;
-}
-
-table {
-  margin-bottom: 1rem;
-  width: 100%;
-  font-size: 85%;
-  border: 1px solid #e5e5e5;
-  border-collapse: collapse;
-}
-
-td,
-th {
-  padding: .25rem .5rem;
-  border: 1px solid #e5e5e5;
-}
-
-th {
-  text-align: left;
-}
-
-tbody tr:nth-child(odd) td,
-tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9;
+a:hover {
+  text-decoration: underline;
 }
