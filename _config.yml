@@ -7,6 +7,7 @@ tagline:             Tips & Tricks for Devs
 url:
 paginate:            1
 baseurl:             "https://robertdesonier.github.io/RoBlog/"
+theme: time machine
 
 # Assets
 #
