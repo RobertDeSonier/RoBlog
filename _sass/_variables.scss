@@ -1,30 +1,35 @@
-$gray-1: #f9f9f9;
-$gray-2: #ccc;
-$gray-3: #767676;
-$gray-4: #515151;
-$gray-5: #313131;
 
-$red: #ac4142;
-$orange: #d28445;
-$yellow: #f4bf75;
-$green: #90a959;
-$cyan: #75b5aa;
-$blue: #268bd2;
-// $blue: #6a9fb5;
-$brown: #8f5536;
+// Font family
+$body-font-family: "Helvetica Neue", Arial, sans-serif;
+$body-font-size: 16px;
+$prose-font-size: 20px;
 
-$root-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-$root-font-size: 16px;
-$root-line-height: 1.5;
 
-$body-color: #515151;
-$body-bg: #fff;
-$link-color: $blue;
+// Type scale
+$h0-mobile: 64px;
+$h0-desktop: 128px;
 
-$border-color: #e5e5e5;
+$h1-size: 40px !default;
+$h2-size: 32px !default;
+$h3-size: 24px !default;
+$h4-size: 20px !default;
+$h5-size: 16px !default;
+$h6-size: 12px !default;
 
-$large-breakpoint: 38em;
-$large-font-size: 20px;
+// Default border color
+$color-border: #ddd !default;
 
-$code-font-family: Menlo, Monaco, "Courier New", monospace;
-$code-color: #bf616a;
+// Container width
+$container-width: 64em;
+
+// Large breakpoint
+$breakpoint-lg: 52em;
+
+// Spacing unit
+$spacer: 8px !default;
+
+// Spacing scale
+$spacer-1: $spacer !default; // 8px
+$spacer-2: ($spacer * 2) !default; // 16px
+$spacer-3: ($spacer * 4) !default; // 32px
+$spacer-4: ($spacer * 8) !default; // 64px
