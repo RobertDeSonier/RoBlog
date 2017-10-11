@@ -34,3 +34,23 @@ By Rebasing your branch on top, instead of merging, you get a cleaner history wi
 
 ## How to Rebase:
 
+### In command line:
+
+ 1. Checkout your branch (if not already checkout out) and run: `git checkout your-branch`
+ 1. Then run: `git rebase other-branch`
+
+The rebase command accepts a wide range of arguments (eg. you can rebase using a hash `git rebase ba32176196fc9a63383950ccca41cce6a4a7ac0f`).
+
+So go checkout out the [documentation](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) for more advanced rebasing.
+
+### In GitExtensions:
+
+ 1. Checkout your branch
+ 1. Right-click the branch you want to rebase on.
+ 1. Select `Rebase current branch on` and then select the branch you want to rebase on
+ ![GitExRebase]({{ site.baseurl }}/assets/WIP/gitExRebase.PNG)
+ 1. Once you get the window below, select Rebase:
+ ![GetExRebaseForm]({{ site.baseurl }}/assets/WIP/gitExRebaseForm.PNG)
+ 1. Then sit back and watch it work.
+
+Any conflicts will appear as git rebases your branch, so you can solve them on the commit where the conflict occurs.
