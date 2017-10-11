@@ -54,3 +54,9 @@ So go checkout out the [documentation](https://git-scm.com/book/en/v2/Git-Branch
  1. Then sit back and watch it work.
 
 Any conflicts will appear as git rebases your branch, so you can solve them on the commit where the conflict occurs.
+
+## PS:
+
+There will still be cases where a merge is better than a rebase (eg. There are so many conflicts, it would be easier to solve them all in one merge commit).
+
+I believe a good rule of thumb is, rebase first and use merge as a back up for when the rebase gets too much to handle.
