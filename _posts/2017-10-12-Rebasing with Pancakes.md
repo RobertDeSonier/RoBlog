@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rebasing with Pancakes
+title: Rebasing with Pancakes!
 date: 2017-10-12 07:00:00
 categories: git
 ---
