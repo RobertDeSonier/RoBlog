@@ -13,8 +13,10 @@ This post will be focused on the basic rebase.
 
 ## What is Rebasing:
 
-I feel like an illustration could help with this, so lets say you and a friend have a stacks of pancakes each.
+I think an illustration could help with this, so lets say you and a friend have a stacks of pancakes each.
+
 Your friend's stack has 5 pancakes and your stack only has 1! Clearly we need to fix this.
+
 To fix it, you move the top 2 pancakes from your friend's stack to your stack.
 ![pancakes]({{ site.baseurl }}/assets/WIP/pancake.PNG)
 
