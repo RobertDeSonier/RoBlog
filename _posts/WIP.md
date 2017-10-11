@@ -22,11 +22,12 @@ You move commits from one branch to another.
 
 ## When to Rebase:
 
-Sometimes it is because there really is a new branch someone made that you want your commits to be on top of.
-Most of the time I see the need for a basic rebase, is the branch you originally started working off of has changed and you need changes from that branch to either merge a pull request or to get new features it has.
-```
-Side note:
-This could be solved with a merge as well, but a rebase would allow your branch's history to not be muddled with merge commits.
-```
+As with the pancakes, sometime you want your branch to be based on another branch:
+![MoveBranch]({{ site.baseurl }}/assets/WIP/moveBranch.PNG)
+
+Most of the time though, the basic rebase is best used to replace a merge so your branch is up to date with the base branch:
+![RebaseOnTop]({{ site.baseurl }}/assets/WIP/rebaseOnTop.PNG)
+By Rebasing your branch on top, instead of merging, you get a cleaner history without a bunch of merge commits updating your branch.
 
 ## How to Rebase:
+
