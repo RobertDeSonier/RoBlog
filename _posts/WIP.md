@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git Rebase
+title: Rebasing with Pancakes
 date: 2017-10-10 07:00:00
 categories: Git
 ---
