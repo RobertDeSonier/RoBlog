@@ -7,7 +7,8 @@ categories: Git
 
 I have had a lot of people approach me with questions that could be solved with a [Git Rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing), so I wanted to write a couple posts about it.
 There are two methods of rebasing, the basic rebase and the interactive rebase.
-These two methods are so different for when to use them and what they do, I wanted to create separate posts for each.
+These two methods are so different for when it comes to use them and what they are used for, I wanted to create separate posts for each.
+
 This post will be focused on the basic rebase.
 
 ## What is Rebasing:
