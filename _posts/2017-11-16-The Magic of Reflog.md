@@ -57,3 +57,9 @@ So, if you are practicing something new or complicated, just do it locally, then
 
 A good rule of thumb with Git, if the word `force` is involved in what you are doing, proceed with caution.  
 Most `force` commands cannot be undone, you will lose something if you use `force` incorrectly.
+
+## PSSS:
+
+A fellow co-worker, whose blog can be found [here](https://www.knightlycode.com/), brought up another good point to mention.  
+[Git garbage collection](https://git-scm.com/docs/git-gc) can remove history that is important to you when using reflog, and the garbage collection can run automatically after certain commands. (eg. very large rebases)
+So, please be cautious even when depending on the magic of reflog.
