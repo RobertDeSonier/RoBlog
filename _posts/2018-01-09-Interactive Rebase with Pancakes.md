@@ -90,14 +90,37 @@ The only time I have really used it, was to run a script that modifies each comm
 
 ### In command line:
 
+ 1. Checkout your branch (if not already checkout out) and run: `git checkout your-branch`
+ 1. Then run: `git rebase -i other-branch`
+ 1. A text editor should pop-up with something similar to this:
+ ![CLI - Initial Rebase Window]({{ site.baseurl }}/assets/2018-01-09/CLIRebase1.PNG)
+  - You can see, all of the options available are listed in the commented out section at the bottom.
+ 1. Set the options for each commit you want to change, eg:
+ ![CLI - Options Set Rebase Window]({{ site.baseurl }}/assets/2018-01-09/CLIRebase2.PNG)
+ 1. Save, Close, and watch git work.
+
 ### In GitExtensions:
 
+ 1. Checkout your branch
+ 1. Right-click the branch you want to rebase on.
+ 1. Select `Rebase current branch on` and then select the branch you want to rebase on.
+ ![GE - Rebase Menu]({{ site.baseurl }}/assets/2018-01-09/GERebase1.PNG)
+ 1. Once you get the window below, select `Show options`:
+ ![GE - Rebase Show Options]({{ site.baseurl }}/assets/2018-01-09/GERebase2.PNG)
+ 1. Then check `Interactive Rebase` and press Rebase:
+ ![GE - Rebase Show Options]({{ site.baseurl }}/assets/2018-01-09/GERebase3.PNG)
+ 1. You will be presented with the same window as with Rebasing in the command line:
+ ![CLI - Initial Rebase Window]({{ site.baseurl }}/assets/2018-01-09/CLIRebase1.PNG)
+  - You can see, all of the options available are listed in the commented out section at the bottom.
+ 1. Set the options for each commit you want to change, eg:
+ ![CLI - Options Set Rebase Window]({{ site.baseurl }}/assets/2018-01-09/CLIRebase2.PNG)
+ 1. Save, Close, and watch git work.
 
-
+Any conflicts will appear as git rebases your branch, so you can solve them on the commit where the conflict occurs.
 
 ## Lessons Learned:
 
  - Interactive Rebase becomes significantly more useful the smaller the changes your commits contain (it is always easier to combine commits rather than split them apart).
-
+ - If you have to rebase a branch pushed to the server (eg. GitHub), be sure to notify anyone who could be using that branch as well.
 
 
