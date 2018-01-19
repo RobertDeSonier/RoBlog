@@ -70,7 +70,7 @@ This is one of the harder and most useful options at your disposal, so take the 
 
 Fixup is how you make your 3 pancakes into 1 big pancake (My 3 year old daughter loves this one).
 
-![3 Pancakes => 1 Big Pancake]({{ site.baseurl }}/assets/2018-01-09/squashPancakes.JPG)
+![3 Pancakes => 1 Big Pancake]({{ site.baseurl }}/assets/2018-01-09/fixupPancakes.JPG)
 
 Fixup lets you combine a bunch of commits into a single commit.
 This is nice if you are using frequent small commits, it allows you to bring those commits together into a clearer single commit (Your code review buddy will love this one).
@@ -79,7 +79,7 @@ This is nice if you are using frequent small commits, it allows you to bring tho
 
 Squash lets you order your 1 big pancake in Greek.
 
-![3 Pancakes => 1 Big Τηγανίτα]({{ site.baseurl }}/assets/2018-01-09/fixupPancakes.JPG)
+![3 Pancakes => 1 Big Τηγανίτα]({{ site.baseurl }}/assets/2018-01-09/squashPancakes.JPG)
 
 Squash is a combination of Fixup and Reword, so you combine a bunch of commits and then change the commit message.
 
