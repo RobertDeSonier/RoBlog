@@ -5,7 +5,7 @@ date: 2018-08-06 07:00:00
 categories: scripts python
 ---
 
-If you have to do it more than once, script it!  
+**If you have to do it more than once, script it!**
 
 Not only does automating your mundane daily tasks allow for more time to focus on the fun stuff, it also reduces the possibility for errors.
 
@@ -44,7 +44,7 @@ v1Meta.commit()
 
 Using the GitHub API along with the VersionOne API, I can take the mundane task of linking my Pull Requests to User Stories and make it automated with a script.
 
-But now, Im sure you are thinking, does that just mean I have to run a script every day now?
+But now, I'm sure you are thinking, does that just mean I have to run a script every day now?
 
 Not true! With Window's Task Scheduler, I can make my script run as often and frequent as I want.
 
@@ -55,7 +55,7 @@ Not true! With Window's Task Scheduler, I can make my script run as often and fr
 1. In the Actions tab, select `New...`
 1. From here you can add your script to run:
 ![Actions Tab]({{ site.baseurl }}/assets/2018-08-06/ActionsTab.JPG)  
-**FYI: `.pyw` extension will run your python script silently**
+**FYI: `.pyw` extension allows you to run your python script silently**
 1. In the Triggers tab, you select when it will run and how often:
 ![Triggers Tab]({{ site.baseurl }}/assets/2018-08-06/TriggersTab.JPG)  
 This is where you have the freedom to customize when your script will run.  
