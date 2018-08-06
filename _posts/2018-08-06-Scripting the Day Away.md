@@ -9,15 +9,19 @@ If you have to do it more than once, script it!
 
 Not only does automating your mundane daily tasks allow for more time to focus on the fun stuff, it also reduces the possibility for errors.
 
-Scripting the mundane is faster and easier with the data we can get from APIs.
+You may be asking, how can I possibly script all of my daily tasks?
+
+The answer is APIs!
 
 ## Using APIs:
 
-Here are some example APIs I interacted with to get my Pull Request link added to my User Story.
+Scripting the mundane is faster and easier with the data we can get from APIs.
+
+Here are some example APIs I interacted with to get my Pull Request links and added them to my User Stories.
 
 #### GitHub's API:
 
-I can get all open Pull Requests using [GitHub's API](https://developer.github.com/v3/) into a JSON format:
+First, I can get all open Pull Requests using [GitHub's API](https://developer.github.com/v3/) into a JSON format:
 ```python
 import requests
 import json
@@ -38,11 +42,13 @@ userStory.ResolutionDetails = '<p><a href="' + link + '">' + link + '</p>'
 v1Meta.commit()
 ```
 
-Using the GitHub API along with the VersionOne API, I can take the mundane DevOps process of linking my Pull Requests to User Stories and make it automated with a script.
+Using the GitHub API along with the VersionOne API, I can take the mundane task of linking my Pull Requests to User Stories and make it automated with a script.
 
-Then with Window's Task Scheduler, I can make my script run as often as I want.
+But now, Im sure you are thinking, does that just mean I have to run a script every day now?
 
-## Set up Task in Task Scheduler:
+Not true! With Window's Task Scheduler, I can make my script run as often and frequent as I want.
+
+## Setting up a Task in Window's Task Scheduler:
 
 1. Open Task Scheduler
 1. In the Actions panel, select `Create Task...`
@@ -55,6 +61,6 @@ Then with Window's Task Scheduler, I can make my script run as often as I want.
 This is where you have the freedom to customize when your script will run.  
 You can even run it every time you log into your computer.
 
-After this, I no longer have to worry about the mundane process of linking my Pull Requests to my User Stories.
+After this, I no longer have to even think about the mundane process of linking my Pull Requests to my User Stories.
 
 Now, if only I could write a script for my mundane tasks in real life. #MowinTheLawnInTexas
