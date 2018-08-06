@@ -9,8 +9,7 @@ categories: scripts python
 
 Not only does automating your mundane daily tasks allow for more time to focus on the fun stuff, it also reduces the possibility for errors.
 
-You may be asking, how can I possibly script all of my daily tasks?
-
+You may be asking, how can I possibly script all of my daily tasks?  
 The answer is APIs!
 
 ## Using APIs:
@@ -44,8 +43,7 @@ v1Meta.commit()
 
 Using the GitHub API along with the VersionOne API, I can take the mundane task of linking my Pull Requests to User Stories and make it automated with a script.
 
-But now, I'm sure you are thinking, does that just mean I have to run a script every day now?
-
+But now, I'm sure you are thinking, does that just mean I have to run a script every day now?  
 Not true! With Window's Task Scheduler, I can make my script run as often and frequent as I want.
 
 ## Setting up a Task in Window's Task Scheduler:
@@ -63,4 +61,5 @@ You can even run it every time you log into your computer.
 
 After this, I no longer have to even think about the mundane process of linking my Pull Requests to my User Stories.
 
-Now, if only I could write a script for my mundane tasks in real life. #MowinTheLawnInTexas
+Now, if only I could write a script for my mundane tasks in real life.  
+\#MowinTheLawnInTexas
